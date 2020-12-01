@@ -1,0 +1,53 @@
+body
+  {
+    background: lightblue;
+    color: navy;
+    display: flex;
+    justify-content: center;
+  }
+
+#hold
+{
+  position: relative;
+  top: 100px;
+  width: 500px;
+}
+
+#contentbox
+  {
+    width: 500px;
+    border: 3px solid darkgray;
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 20px;
+    background: white;
+  }
+
+ul
+  {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    justify-content: left;
+  }
+
+a
+{
+  position: relative;
+  text-decoration: none;
+  background: white;
+  padding: 20px;
+  margin-bottom: 15px;
+  color: lightblue;
+}
+
+a:hover
+{
+  background-color: lightyellow;
+  color: orange;
+}
+a:visited
+{
+  background-color: pink;
+  color: maroon;
+}
